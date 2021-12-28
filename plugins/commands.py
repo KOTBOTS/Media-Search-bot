@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://t.me/KOT_LINKS_TEAM')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KOT_BOTS'>Click here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>KOT Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Nᴀᴍᴇ : <a href='https://t.me/KDASH_FINDERBOT'>Mᴇᴅɪᴀ Sᴇᴀʀᴄʜ Bᴏᴛ</a>\nSᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>\nFʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ 1.2.9</a>\nDᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a>/nPᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/KOT_LINKS_TEAM'>Kᴏᴛ Lɪɴᴋs Tᴇᴀᴍ</a>/nUᴘᴅᴀᴛᴇᴅ Oɴ : [ 1.1.2022 ] 06:00 AM", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
