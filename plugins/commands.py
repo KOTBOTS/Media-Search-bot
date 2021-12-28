@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/KOT_BOTS')
+                        InlineKeyboardButton('Kᴏᴛ Bᴏᴛs', url='https://t.me/KOT_BOTS')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/KOT_BOTS")
+                        InlineKeyboardButton("Kᴅ Asʜ", url="https://t.me/KDASH_LINKS")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('Source Code', url='https://t.me/KOT_LINKS_TEAM')
+            InlineKeyboardButton('Kᴅ Asʜ™ Cʜᴀᴛ Rᴏᴏᴍ', url='https://t.me/kdashchat'),
+            InlineKeyboardButton('𝗞ᴏ𝗧  𝗢ғ𝗙 ᴛ𝗢ᴘ𝗜ᴄ', url='https://t.me/KOT_OFF_TOPICS')
         ]
         ]
     await message.reply(text="Nᴀᴍᴇ : <a href='https://t.me/KDASH_FINDERBOT'>Mᴇᴅɪᴀ Sᴇᴀʀᴄʜ Bᴏᴛ</a>\nSᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>\nFʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ 1.2.9</a>\nDᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a>/nPᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/KOT_LINKS_TEAM'>Kᴏᴛ Lɪɴᴋs Tᴇᴀᴍ</a>/nUᴘᴅᴀᴛᴇᴅ Oɴ : [ 1.1.2022 ] 06:00 AM", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
